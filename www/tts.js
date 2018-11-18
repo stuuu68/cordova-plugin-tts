@@ -24,6 +24,18 @@ exports.speak = function (text) {
     });
 };
 
+exports.pause = function() {
+    return new Promise(function (resolve, reject) {
+        cordova.exec(resolve, reject, 'TTS', 'pause', []);
+    });
+};
+
+exports.resume = function() {
+    return new Promise(function (resolve, reject) {
+        cordova.exec(resolve, reject, 'TTS', 'resume', []);
+    });
+};
+
 exports.stop = function() {
     return new Promise(function (resolve, reject) {
         cordova.exec(resolve, reject, 'TTS', 'stop', []);

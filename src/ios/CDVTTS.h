@@ -18,6 +18,8 @@
 }
 
 - (void)speak:(CDVInvokedUrlCommand*)command;
+- (void)pause:(CDVInvokedUrlCommand*)command;
+- (void)resume:(CDVInvokedUrlCommand*)command;
 - (void)stop:(CDVInvokedUrlCommand*)command;
 - (void)checkLanguage:(CDVInvokedUrlCommand*)command;
 @end
