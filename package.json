@@ -1,32 +1,28 @@
 {
   "name": "cordova-plugin-tts",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "Cordova Text-to-Speech Plugin",
   "cordova": {
     "id": "cordova-plugin-tts",
     "platforms": [
-      "ios",
-      "wp8",
-      "android"
+      "ios"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vilic/cordova-plugin-tts.git"
+    "url": "git+https://github.com/stuuu68/cordova-plugin-tts.git"
   },
   "keywords": [
     "cordova",
     "tts",
     "text-to-speech",
     "ecosystem:cordova",
-    "cordova-ios",
-    "cordova-wp8",
-    "cordova-android"
+    "cordova-ios"
   ],
-  "author": "VILIC VANE",
+  "author": "VILIC VANE, Stuart Cornell",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vilic/cordova-plugin-tts/issues"
+    "url": "https://github.com/stuuu68/cordova-plugin-tts/issues"
   },
-  "homepage": "https://github.com/vilic/cordova-plugin-tts#readme"
+  "homepage": "https://github.com/stuuu68/cordova-plugin-tts#readme"
 }
